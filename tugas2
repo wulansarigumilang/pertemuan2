@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int detik, menit, jam, a, b, s;
+   cout<<"Masukkan detik: "; cin>>s;
+   jam=s/3600;
+   a=s%3600;
+   menit=s/60;
+   b=a%60;
+   cout<<jam<<" Jam "<<menit<<" menit "<<b<<" detik "<<endl;
+}
