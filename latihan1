@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int jam, menit;
+    cout<<"Konversi Jam ke Menit";
+    cout<<"\nMasukkan Jam: "; 
+    cin>>jam;
+    menit=jam*60;
+    cout<<"Menit :"<<menit<<endl;
+    }
