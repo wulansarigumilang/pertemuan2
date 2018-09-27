@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int nilai;
+    cin>>nilai;
+    cout<<endl;
+    
+    if (nilai%2)
+    { 
+        cout<<"Bilangan"<<nilai<<"adalah genap";
+    }
+    else
+    {
+        cout<<"Bilangan"<<nilai<<"adalah ganjil";
+    }
+    return 0;
+}
